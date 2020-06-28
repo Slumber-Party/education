@@ -1,0 +1,8 @@
+SELECT p.name,c.name FROM public.Products p
+LEFT JOIN public.Products_Categories pc on p.id = pc.p_id
+LEFT JOIN public.Categories c on pc.c_id = c.id
+
+/////////////////
+public - db schema
+
+3 таблицы: Products(id,name), Categories(id,name), Products_Categories(p_id,c_id)
