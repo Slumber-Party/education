@@ -5,4 +5,4 @@ LEFT JOIN public.Categories c on pc.c_id = c.id
 /////////////////
 public - db schema
 
-3 таблицы: Products(id,name), Categories(id,name), Products_Categories(p_id,c_id)
+3 tables: Products(id,name), Categories(id,name), Products_Categories(p_id,c_id)
